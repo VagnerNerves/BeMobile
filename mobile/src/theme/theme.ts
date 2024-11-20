@@ -22,6 +22,10 @@ export const theme = {
     HELVETICA_MEDIUM: 'HelveticaNeue_500Medium',
     HELVETICA_BOLD: 'HelveticaNeue_700Bold',
     TEXT_STYLE: {
+      '10': {
+        SIZE: 10,
+        LINEHEIGHT: 12.01
+      },
       '16': {
         SIZE: 16,
         LINEHEIGHT: 19.09
