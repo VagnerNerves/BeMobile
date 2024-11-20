@@ -46,6 +46,7 @@ export function Notification({ numberNotifications }: NotificationProps) {
               fontSize: theme.FONTS.TEXT_STYLE[10].SIZE,
               color: theme.COLORS.WHITE.NEUTRAL
             }}
+            numberOfLines={1}
           >
             {formattedNumber}
           </Text>
