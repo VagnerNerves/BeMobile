@@ -1,4 +1,5 @@
 {
+  "name": "betalentbackend",
   "scripts": {
     "start": "json-server --watch database.json"
   },
