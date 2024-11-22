@@ -12,7 +12,7 @@ Desenvolvido o projeto **BeTalent**, um aplicativo mobile com React Native e Exp
 
 Para rodar o projeto, você precisará:
 
-- **[git](https://git-scm.com/)**
+- **[Git](https://git-scm.com/)**
 - **[Node.js](https://nodejs.org/en)**
 - Um dispositivo físico com o aplicativo **Expo Go** ou um emulador configurado (Android/iOS).
 
