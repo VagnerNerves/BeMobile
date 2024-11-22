@@ -164,7 +164,15 @@ export default function Home() {
         <View
           style={{ flex: 1, paddingHorizontal: 20, paddingTop: 24, gap: 24 }}
         >
-          <View style={{ width: '100%', gap: 14 }}>
+          <View
+            style={{ width: '100%', gap: 14 }}
+            pointerEvents={
+              requestEmployeesStatus.isLoadingGetNew ||
+              requestEmployeesStatus.isLoadingGetNext
+                ? 'none'
+                : 'auto'
+            }
+          >
             <Text
               style={{
                 fontFamily: theme.FONTS.HELVETICA_MEDIUM,
